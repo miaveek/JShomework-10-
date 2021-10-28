@@ -7,6 +7,7 @@ window.onload = () =>{
         createInput.type ="text";
         createInput.id ="circleDim";
         createInput.setAttribute('value', ' ');
+        createInput.setAttribute("placeholder", "Введите диаметр круга");
         createNewBtn.innerHTML =("Нарисовать");
         createNewBtn.id ="createCirclesBtn";
         btnRemoval.remove();
